@@ -4,10 +4,11 @@ const { Schema } = mongoose;
 
 const schemaCarreras = new Schema({
     nombre: { type: String, default:null},
-    materias: [{ 
+    materias: [{
+        _id: false, 
         materia: {type: Schema.Types.ObjectId, ref:'materias'},
     }],
-    status: { type: String, enum:['activo', 'inactivo']}
+    status: { type: String, enum:['activo', 'inactivo']},
 })
 
 module.exports = mongoose.model('carreras', schemaCarreras);

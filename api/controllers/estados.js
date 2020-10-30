@@ -6,9 +6,7 @@ class estadosController {
             nombre: req.body.nombre,
             status: req.body.status
         });
-        console.log(nuevo)
          nuevo.save((error, data) => {
-            console.log(error);
             if(error){
                 return res.status(500).json({error});
             } else {
