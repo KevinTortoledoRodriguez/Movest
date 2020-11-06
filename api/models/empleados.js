@@ -16,6 +16,7 @@ const schemaEmpleados = new Schema({
   },
   telefono: { type: String, default:null},
   correo: { type: String, default:null},
+  institucion: {type: Schema.Types.ObjectID, ref:'instituciones'},
   departamento: { type: Schema.Types.ObjectID, ref:'departamentos'},
   puesto: { type: String, default: null},
   carrera: { type: Schema.Types.ObjectID, ref: 'carreras', default:null},

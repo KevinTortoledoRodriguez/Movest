@@ -815,5 +815,251 @@ var carreras = [
             {"materia": "5f9bc050e516772158afbdc7"}
         ],
         "status": "activo"
+    },
+    {
+        "nombre": "Ingenieria Industrial",
+        "materias": [
+            {"materia" :"5f9bc050e516772158afbd9a"},
+            {"materia" :"5f9bc050e516772158afbd9b"},
+            {"materia" :"5f9bc050e516772158afbd9c"},
+            {"materia" :"5f9bc050e516772158afbd9d"},
+            {"materia" :"5f9bc050e516772158afbd9e"},
+            {"materia" :"5f9bc050e516772158afbd9f"},
+            {"materia" :"5f9bc050e516772158afbda0"},
+            {"materia" :"5f9bc050e516772158afbda1"},
+            {"materia" :"5f9bc050e516772158afbda2"},
+            {"materia" :"5f9bc050e516772158afbda3"},
+            {"materia" :"5f9bc050e516772158afbda8"},
+            {"materia" :"5f9bc050e516772158afbdab"},
+            {"materia" :"5f9bc050e516772158afbdac"},
+            {"materia" :"5f9bc050e516772158afbdae"},
+            {"materia" :"5f9bc050e516772158afbdc8"},
+            {"materia" :"5f9bc050e516772158afbdc9"},
+            {"materia" :"5f9bc050e516772158afbdca"},
+            {"materia" :"5f9bc050e516772158afbdcb"},
+            {"materia" :"5f9bc050e516772158afbdcc"},
+            {"materia" :"5f9bc050e516772158afbdcd"},
+            {"materia" :"5f9bc050e516772158afbdce"},
+            {"materia" :"5f9bc050e516772158afbdcf"},
+            {"materia" :"5f9bc050e516772158afbdd0"},
+            {"materia" :"5f9bc050e516772158afbdd1"},
+            {"materia" :"5f9bc050e516772158afbdd2"},
+            {"materia" :"5f9bc050e516772158afbdd3"},
+            {"materia" :"5f9bc050e516772158afbdd4"},
+            {"materia" :"5f9bc050e516772158afbdd5"},
+            {"materia" :"5f9bc050e516772158afbdd6"},
+            {"materia" :"5f9bc050e516772158afbdd7"},
+            {"materia" :"5f9bc050e516772158afbdd8"},
+            {"materia" :"5f9bc050e516772158afbdd9"},
+            {"materia" :"5f9bc050e516772158afbdda"},
+            {"materia" :"5f9bc050e516772158afbddb"},
+            {"materia" :"5f9bc050e516772158afbddc"},
+            {"materia" :"5f9bc050e516772158afbddd"},
+            {"materia" :"5f9bc050e516772158afbdde"},
+            {"materia" :"5f9bc050e516772158afbddf"},
+            {"materia" :"5f9bc050e516772158afbde0"},
+            {"materia" :"5f9bc050e516772158afbde1"},
+            {"materia" :"5f9bc050e516772158afbde2"},
+            {"materia" :"5f9bc050e516772158afbde3"},
+            {"materia" :"5f9bc050e516772158afbde4"},
+            {"materia" :"5f9bc050e516772158afbde5"},
+            {"materia" :"5f9bc050e516772158afbde6"},
+            {"materia" :"5f9bc050e516772158afbde7"},
+            {"materia" :"5f9bc050e516772158afbde8"},
+            {"materia" :"5f9bc050e516772158afbde9"}
+        ],
+        "status": "activo"
+    }
+]
+
+var instituciones = [
+    {
+        "nombre":"Instituto Tecnologico de Culiacan",
+        "direccion": {
+            "calle":"Juan de Dios Batiz",
+            "numero": 310,
+            "colonia":"5f97ced4298fd63f40e29717",
+            "codigoPostal":"80220",
+            "ciudad":"5f97cbfec962fb2ab4114cc1",
+            "estado":"5f97c74c1a525823906eadcf"
+        },
+        "carreras":[
+            {"carrera": "5f9bdf3ae4d5b90978b62a80"},
+            {"carrera": "5f9be99e1e2d8e35a09f41db"}
+        ],
+        "telefono": "6677133804",
+        "correo": "webmaster@culiacan.tecnm.mx"
+    },
+    {
+        "nombre": "Instituto Tecnlogico de Saltillo",
+        "direccion": {
+            "calle": "Venustiano Carranza",
+            "numero": 2400,
+            "colonia": "5f97cee0298fd63f40e29718",
+            "codigoPostal": "25280",
+            "ciudad":"5f97cbecc962fb2ab4114cc0",
+            "estado":"5f97c78fc962fb2ab4114cbc";
+        },
+        "carreras":[
+            {"carrera": "5f9bdf3ae4d5b90978b62a80"},
+            {"carrera": "5f9be99e1e2d8e35a09f41db"}
+        ],
+        "telefono": "(844)4389500",
+        "correo":""
+    }
+]
+
+var departamentos = [
+    {
+        "nombre": "Coordinacion sistemas",
+        "institucion": "5fa36eb5604bc80aa0e10ded"
+    },
+    {
+        "nombre": "Coordinacion industrial",
+        "institucion": "5fa36eb5604bc80aa0e10ded"
+    },
+    {
+        "nombre": "Division de estudios profesionales",
+        "institucion": "5fa36eb5604bc80aa0e10ded"
+    },
+    {
+        "nombre": "Servicios escolares",
+        "institucion": "5fa36eb5604bc80aa0e10ded"
+    },
+    {
+        "nombre": "Subdireccion academica",
+        "institucion": "5fa36eb5604bc80aa0e10ded"
+    },
+
+
+    {
+        "nombre": "Coordinacion sistemas",
+        "institucion": "5fa37071604bc80aa0e10dee"
+    },
+    {
+        "nombre": "Coordinacion industrial",
+        "institucion": "5fa37071604bc80aa0e10dee"
+    },
+    {
+        "nombre": "Division de estudios profesionales",
+        "institucion": "5fa37071604bc80aa0e10dee"
+    },
+    {
+        "nombre": "Servicios escolares",
+        "institucion": "5fa37071604bc80aa0e10dee"
+    },
+    {
+        "nombre": "Subdireccion academica",
+        "institucion": "5fa37071604bc80aa0e10dee"
+    },
+]
+
+var empleados = [
+    {
+        "nombres": "Dinorah",
+        "apellidoPaterno": "Meza",
+        "apellidoMaterno": "Garcia",
+        "correo": "se_culiacan@tecnm.mx",
+        "institucion": "5fa36eb5604bc80aa0e10ded",
+        "departamento": "5fa374b2d012ad453404f620",
+        "puesto": "Jefesita"
+    },
+    {
+        "nombres": "David",
+        "apellidoPaterno": "Noriega",
+        "apellidoMaterno": "Urquidez",
+        "correo": "acad_culiacan@tecnm.mx",
+        "institucion": "5fa36eb5604bc80aa0e10ded",
+        "departamento": "5fa374b8d012ad453404f621",
+        "puesto": "Subdirector"
+    },
+    {
+        "nombres": "Carlos Rafael",
+        "apellidoPaterno": "Lizarraga",
+        "apellidoMaterno": "Arreola",
+        "correo": "divestudios@itculiacan.edu.mx",
+        "institucion": "5fa36eb5604bc80aa0e10ded",
+        "departamento": "5fa374a9d012ad453404f61f",
+        "puesto": "Jefaso"
+    },
+    {
+        "nombres": "Gabriela",
+        "apellidoPaterno": "Sanchez",
+        "apellidoMaterno": "Angulo",
+        "correo": "coorindustrial@itculiacan.edu.mx",
+        "institucion": "5fa36eb5604bc80aa0e10ded",
+        "departamento": "5fa374a3d012ad453404f61e",
+        "puesto": "Coordinadora"
+    },
+    {
+        "nombres": "Edna Rocio",
+        "apellidoPaterno": "Barajas",
+        "apellidoMaterno": "Olivas",
+        "correo": "coorsistemas@itculiacan.edu.mx",
+        "institucion": "5fa36eb5604bc80aa0e10ded",
+        "departamento": "5fa374a3d012ad453404f61e",
+        "puesto": "Coordinadora"
+    },
+
+
+    {
+        "nombres": "Teresita del Rosario",
+        "apellidoPaterno": "Borrego",
+        "apellidoMaterno": "Jimenez",
+        "correo": "tborrego@itsaltillo.edu.mx",
+        "institucion": "5fa37071604bc80aa0e10dee",
+        "departamento": "5fa374b2d012ad453404f620",
+        "puesto": "Jefesita"
+    },
+    {
+        "nombres": "Antonio",
+        "apellidoPaterno": "Escobedo",
+        "apellidoMaterno": "Bocardo",
+        "correo": "abocardo@itsaltillo.edu.mx",
+        "institucion": "5fa37071604bc80aa0e10dee",
+        "departamento": "5fa374b8d012ad453404f621",
+        "puesto": "Subdirector"
+    },
+    {
+        "nombres": "Ismael",
+        "apellidoPaterno": "Luevano",
+        "apellidoMaterno": "Martinez",
+        "correo": "iluevano@itsaltillo.edu.mx",
+        "institucion": "5fa37071604bc80aa0e10dee",
+        "departamento": "5fa374a9d012ad453404f61f",
+        "puesto": "Jefaso"
+    },
+    {
+        "nombres": "Eduardo",
+        "apellidoPaterno": "Marroquin",
+        "apellidoMaterno": "Espinoza",
+        "correo": "emarroquin@itsaltillo.edu.mx",
+        "institucion": "5fa37071604bc80aa0e10dee",
+        "departamento": "5fa374a3d012ad453404f61e",
+        "puesto": "Coordinador"
+    },
+    {
+        "nombres": "Juan Fraustro",
+        "apellidoPaterno": "De la O",
+        "apellidoMaterno": "",
+        "correo": "jfraustro@itsaltillo.edu.mx",
+        "institucion": "5fa37071604bc80aa0e10dee",
+        "departamento": "5fa3749bd012ad453404f61d",
+        "puesto": "Coordinador"
+    },
+]
+
+var logins = [
+    {
+        "userName":"ktortoledo",
+        "password":"123123",
+        "tipoLogin":"Estudiante",
+        "usuario":"5f97cf28298fd63f40e29719"
+    },
+    {
+        "userName":"eRocio",
+        "password":"123123",
+        "tipoLogin":"Empleado",
+        "usuario":"5fa382f92742a604dc077e61"
     }
 ]

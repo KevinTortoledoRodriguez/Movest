@@ -23,7 +23,6 @@ export default class Home extends Component {
     obtenerUser(){
         const user = JSON.parse(localStorage.getItem('user'))
         this.setState({user: user})
-
         if(user.tipoLogin === "Empleado"){
             Api.getMethod({
                 url: 'empleados',
@@ -62,7 +61,7 @@ export default class Home extends Component {
         const user = this.state.user
         if(user.tipoLogin == "Empleado"){
             return(<Coordinador user={this.state.usuario}/>)
-        } else if(user.tipoLogin == 'Alumno'){
+        } else if(user.tipoLogin == 'Estudiante'){
             return(<Alumnos user={user} usuario={this.state.usuario}/>)
         }
     }
