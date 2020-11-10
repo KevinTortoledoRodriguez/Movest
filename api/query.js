@@ -80,8 +80,8 @@ var materias = [
     },
     
     {
-        "clave": "Ecuaciones Diferenciales",
-        "nombre": "ACF – 0905",
+        "clave": "ACF – 0905",
+        "nombre": "Ecuaciones Diferenciales",
         "creditos": "5",
         "horasTeoricas": "2",
         "horasPracticas": "3",

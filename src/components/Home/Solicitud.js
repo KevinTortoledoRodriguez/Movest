@@ -169,6 +169,7 @@ export class Solicitud extends Component {
 
     renderMaterias(){
         const materias = this.state.materias
+        console.log(materias,"solicitud")
         return materias.map((materia, index) => {
             return(
                 <Table.Row disabled key={index}>

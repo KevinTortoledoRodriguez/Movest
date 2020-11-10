@@ -86,7 +86,6 @@ export class Request extends Component {
                 materias.map((materia) => {
                     response.data.map((mate)=>{
                         if(materia.materia === mate._id){
-                            console.log(materia.materia, mate._id)
                             mati.push(mate)
                             this.setState({materiasCompletas:mati})
                         }
@@ -177,7 +176,6 @@ export class Request extends Component {
         const carrera = this.state.carrera
         const materias = this.state.materiasCompletas
         const instituciones = this.state.instituciones
-        console.log(user, carrera)
         return (
             <Grid>
                 <GridRow>
@@ -217,7 +215,12 @@ export class Request extends Component {
                                     <h1>Institucion de educacion superior de interes</h1>
                                 </FormGroup>
                                 <FormGroup width="equal">
-                                    <FormSelect fluid label='Institucion' options={instituciones} onChange={this.guardaInstitucion.bind(this)} width='8'/>
+                                    <FormSelect 
+                                    fluid 
+                                    label='Institucion'
+                                    options={instituciones} 
+                                    onChange={this.guardaInstitucion.bind(this)} 
+                                    width='8'/>
                                     <FormInput fluid label="Pais" placeholder="Mexico" value="Mexico" width="3"/>
                                 </FormGroup>
                                 <FormGroup width="equal">
